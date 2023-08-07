@@ -230,6 +230,8 @@ document.getElementById("img_mode").onclick = () => {
             change_heading_to_dark_theme[i].style.color = "#ffff";
       
         }
+             //Changing Logo Src
+     document.getElementById("logo").src = 'Images/Hamza_Logo.png';
         dark_theme = true;
     }
 
